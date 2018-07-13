@@ -1,0 +1,19 @@
+{
+  "name": "rollup-plugin-cssthis",
+  "version": "0.0.0",
+  "description": "Transform CSS into template functions by using rollup",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "jsnext:main": "src/index.js",
+  "source": "src/index.js",
+  "scripts": {},
+  "author": "Matias Trujillo Olivares",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/UpperCod/cssthis-rollup.git"
+  },
+  "dependencies": {
+    "rollup-pluginutils": "^2.3.0"
+  }
+}
