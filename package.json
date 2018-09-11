@@ -14,7 +14,7 @@
     "url": "https://github.com/UpperCod/rollup-plugin-cssthis.git"
   },
   "dependencies": {
-    "cssthis-parse": "^0.0.5",
+    "cssthis-parse": "^0.1.0",
     "rollup-pluginutils": "^2.3.0"
   }
 }
