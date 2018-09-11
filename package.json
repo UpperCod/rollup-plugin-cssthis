@@ -1,6 +1,6 @@
 {
   "name": "rollup-plugin-cssthis",
-  "version": "0.0.3",
+  "version": "0.1.0",
   "description": "Transform CSS into template functions by using rollup",
   "main": "dist/index.js",
   "module": "dist/index.js",
