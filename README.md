@@ -12,8 +12,18 @@ export default {
     plugins: [
         cssthis({
             extensions : [".this.css"], // default  [".this.css"]
-            plugins : [autoprefixer] // default []
+            plugins : [autoprefixer], // default []
+            invoke : false // inject dependency cssthis-tag 
         })
     ]
 };
+```
+
+## Invoke 
+
+When defining `invoke:true`, the dependency [cssthis-tag](https://github.com/UpperCod/cssthis-tag) will be injected, the result of this is the possibility of immediately printing the css in the browser.
+
+```javascript
+import style from "./style.this.css";
+style("my-tag");// the css will be printed in document.head
 ```
